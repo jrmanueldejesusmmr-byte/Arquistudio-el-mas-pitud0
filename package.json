@@ -1,0 +1,23 @@
+{
+  "name": "arqstudio3d",
+  "version": "0.1.0",
+  "description": "Editor visual de arquitectura/diseño 3D asistido por IA — versión Electron/Three.js",
+  "main": "./out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "start": "electron-vite preview",
+    "package": "npm run build && electron-builder --linux AppImage"
+  },
+  "dependencies": {
+    "three": "^0.166.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.166.0",
+    "electron": "^31.0.2",
+    "electron-vite": "^2.3.0",
+    "electron-builder": "^24.13.3",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
+  }
+}
